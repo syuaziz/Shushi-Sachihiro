@@ -1,0 +1,343 @@
+*{
+border: 0;
+padding: 0;
+margin: 0;
+font-family: Tahoma, Geneva, sans-serif;
+}
+
+html, body
+{
+  height: 175%;
+  margin:0;
+  padding:0;
+    
+}
+
+
+nav
+{ width: 100%;
+  max-height: 70px;
+  display:flex;
+  background:black;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold; 
+}
+
+
+
+
+a{
+  text-decoration: none;
+  color: orangered;
+  margin: 15px;
+  width:450px;
+}
+
+a:hover
+{
+color:darkorange;
+}
+
+#logo
+{
+  width: 100%;
+  height: 100%;
+  background: black;
+  text-align: center
+}
+
+
+#welcome .greet
+{
+    color: orangered;
+	text-align: center;
+    background-color:rgba(0, 0, 0, 0.75);
+    height:50px;
+    width:1525px;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+.welcometext
+{
+    margin-right: 220px;
+}
+
+
+.trademark
+{
+    text-align: center;
+    background-color:black;
+}
+
+.search-container
+{
+  text-align: right;
+  margin-right:20px; 
+  padding-bottom:10px;
+}
+
+.trademark input[type=text] 
+{
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.trademark .search-container button 
+{
+  float: right;
+  padding: 6px 10px;
+  padding-left: 9px;
+  margin-top: 8px;
+  margin-right: 0px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.trademark .search-container button:hover 
+{
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) 
+{
+  .trademark .search-container
+  {
+    float: none;
+  }
+  .trademark a, .trademark input[type=text], .trademark .search-container button 
+  {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .trademark input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+.menubox 
+{
+    position: relative;
+    display: flex;
+    font-size: 25px;
+    
+}
+.caption1 
+{ 
+            width: 508px;
+            height: 200px;
+            margin-left: 0px;
+            max-height: 100%;
+            padding: 0;
+            background-image: url("../images/viewmenu.jpg");
+            background-size:100% 100%;
+            background-repeat: no-repeat;
+            color:white;
+            text-align: center;
+            padding-top: 150px;
+            
+            
+}
+.caption2 
+{ 
+            width: 508px;
+            height: 200px;
+            margin-left: 0px;
+            max-height: 100%;
+            padding: 0;
+            background-image: url("../images/restaurant.jpg");
+            background-size:100% 100%;
+            background-repeat: no-repeat;
+            color:white;
+            text-align: center;
+            padding-top: 150px;
+            
+}
+.caption3 
+{ 
+            width: 508px;
+            height: 200px;
+            margin-left: 0px;
+            max-height: 100%;
+            padding: 0;
+            background-image: url("../images/catering.jpg");
+            background-size:100% 100%;
+            background-repeat: no-repeat;
+            color:white;
+            text-align: center;
+            padding-top: 150px;
+   
+}
+
+#button1
+{
+    margin: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: darkorange;
+    padding: 14px 40px;
+    border-radius: 12px;
+    color:white;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#button1:hover {
+    background-color: orangered;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#button2
+{
+    margin: 30px; 
+    font-size: 20px;
+    font-weight: bold;
+    background-color: darkorange;
+    padding: 14px 40px;
+    border-radius: 12px;
+    color:white;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#button2:hover {
+    background-color: orangered;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#button3
+{
+    margin: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: darkorange;
+    padding: 14px 40px;
+    border-radius: 12px;
+    color:white;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#button3:hover {
+    background-color: orangered;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.info-banner 
+{
+            width: 1525px;
+            height: 500px;
+            max-height: 100%;
+            padding: 0;
+            background-image: url("../images/res-big.jpg");
+            background-size:100% 100%;
+            background-repeat: no-repeat;
+            text-align: center;
+            text-decoration: none;
+            padding-top: 0px;
+            padding-bottom: 40px;
+            font-size: 40px;
+}
+
+.allboxes
+{
+    display: flex;
+    margin-left:110px;
+    padding-top:20px;
+    height:400px;  
+    opacity: 0.65;
+    
+}
+.box-1
+{
+    color: black;
+    width:400px;
+    font-size: 23px;
+    background-color:darkorange;
+    
+}
+.box-2
+{
+
+    color: black;
+    width:400px;
+    margin-left: 40px;
+    font-size: 23px;
+    background-color:darkorange;
+}
+.box-3
+{
+
+    color: black;
+    width:400px;
+    border-width: 60px;
+    margin-left: 40px;
+    font-size: 23px;
+    background-color:darkorange;
+}
+            
+/*Login Box*/
+.loginbox
+{
+    float: left;
+    background-color: orangered;
+    margin-top:-10px;
+    margin-left:15px;
+    padding-bottom: 0px;
+    color:black;
+    width: 200px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+#logintab
+{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 12px;
+    width: 100px;
+    height:30px;
+    background-color: darkorange;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#logintab:hover
+{
+    background-color: black;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#footer {
+   
+   bottom:0;
+   width:100%;
+   height:400px;   
+   background-color: rgba(0, 0, 0, 0.7);
+   color:white;
+   font-size: 15px;
+   padding-left: 120px;
+   padding-top: 20px;
+}
+
+.insta{
+    padding-left: 5px;
+}
+
+.qrcode{
+    padding-top: 15px;
+}
